@@ -13,6 +13,17 @@ output: html_document
 
 ```
 
+## Testing logical operators
+
+```{r logical-1}
+10 == 10
+10 != 10
+```
+
+```{r logical-2}
+
+```
+
 ## Assigning values to 'objects'
 
 ```{r assign-1}
