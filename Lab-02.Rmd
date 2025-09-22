@@ -37,7 +37,7 @@ glimpse(starwars2)
 
 ```
 
-```{r starwards-glimpse2}
+```{r starwars-glimpse2}
 
 ```
 
@@ -57,24 +57,6 @@ glimpse(starwars2)
 
 ## Black lives matter!
 
-```{r glimpse}
-
-```
-
-```{r subset}
-
-```
-
-
-```{r glimpse-again}
-
-```
-
-```{r coerce}
-police_2 <- police_2 |> mutate(age = as.numeric(age))
-
-
-```
 
 
 ## Activities
