@@ -1,0 +1,82 @@
+---
+title: "Lab 2"
+author: "[your name here]"
+date: "`r format(Sys.time(), '%d/%m/%y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+```{r preamble}
+# Load packages
+
+
+# Read data
+
+```
+
+## Types of variables
+
+
+```{r pipe-1}
+# Using base R pipe
+1 |> sum(1)
+1 |> sum(1) |> sum(5)
+```
+
+```{r pipe-2}
+# Using tidyverse pipe
+1 %>% sum(1)
+1 %>% sum(1) %>% sum(5)
+```
+
+## Black lives matter!
+
+### Examine the data
+
+```{r glimpse}
+
+```
+
+### Data wrangling
+
+```{r subset}
+
+```
+
+
+```{r glimpse-again}
+
+```
+
+```{r coerce}
+police_2 <- police_2 |> mutate(age = as.numeric(age))
+
+
+```
+
+You can put your text cursor on a line below and press `Ctrl+Alt+I` on the keyboard to create a new code block. Alternatively, from the menu bar at the top of RStudio, you can select `Code > Insert Chunk`.
+
+
+
+## Activities
+
+Discuss with your neighbour or tutor:
+
+1. What is the main purpose of the `select()` and `filter()` functions?
+
+2. What does coerce mean in the context of R? and Why do we need to coerce some variables?
+
+3. What is the `mutate()` function useful for?
+
+Using the `police_2` dataset:
+
+1. Filter how many observations are ‘White’ in the `raceethnicity` variable? How may rows/observations are left?
+
+2. How many ‘Hispanic/Latino’ are there in the dataset?
+
+3. Using the example of Figure 2.3, could you filter how many were killed that were (a) ‘Black’ and (b) killed by firearm (‘firearm’)?
+
+4. What about ‘White’ and ‘firearm’?
