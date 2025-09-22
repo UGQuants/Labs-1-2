@@ -19,6 +19,29 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 
 ## Types of variables
 
+```{r iris-glimpse}
+glimpse(iris)
+```
+
+```{r iris-levels}
+
+```
+
+```{r starwars-glimpse}
+starwars2 <- starwars[, 1:11]
+glimpse(starwars2)
+```
+
+
+```{r starwars-factor}
+
+```
+
+```{r starwards-glimpse2}
+
+```
+
+## Pipes
 
 ```{r pipe-1}
 # Using base R pipe
