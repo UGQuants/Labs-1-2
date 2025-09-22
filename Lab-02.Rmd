@@ -57,13 +57,9 @@ glimpse(starwars2)
 
 ## Black lives matter!
 
-### Examine the data
-
 ```{r glimpse}
 
 ```
-
-### Data wrangling
 
 ```{r subset}
 
@@ -79,9 +75,6 @@ police_2 <- police_2 |> mutate(age = as.numeric(age))
 
 
 ```
-
-You can put your text cursor on a line below and press `Ctrl+Alt+I` on the keyboard to create a new code block. Alternatively, from the menu bar at the top of RStudio, you can select `Code > Insert Chunk`.
-
 
 
 ## Activities
@@ -103,3 +96,5 @@ Using the `police_2` dataset:
 3. Using the example of Figure 2.3, could you filter how many were killed that were (a) ‘Black’ and (b) killed by firearm (‘firearm’)?
 
 4. What about ‘White’ and ‘firearm’?
+
+Finally, 'Knit' your R Markdown file.

@@ -59,3 +59,6 @@ object2 <- 30
 ```
 
 3. Click the 'Knit' button in the bar at the top of the R Markdown file (pane 1). This will turn your R Markdown file into an HTML document.
+
+4. Create a new code chunk, you can put your text cursor on a line below and press `Ctrl+Alt+I` on the keyboard. Alternatively, from the menu bar at the top of RStudio, you can select `Code > Insert Chunk`.
+
