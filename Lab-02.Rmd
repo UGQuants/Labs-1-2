@@ -14,7 +14,6 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 
 
 # Read data
-
 ```
 
 ## Types of variables
@@ -75,8 +74,8 @@ Using the `police_2` dataset:
 
 2. How many ‘Hispanic/Latino’ are there in the dataset?
 
-3. Using the example of Figure 2.3, could you filter how many were killed that were (a) ‘Black’ and (b) killed by firearm (‘firearm’)?
+3. Using the example of Figure 2.3, could you filter how many people were killed that were (a) ‘Black’ and (b) killed by firearm (‘Firearm’)?
 
-4. What about ‘White’ and ‘firearm’?
+4. What about ‘White’ and ‘Firearm’?
 
 Finally, 'Knit' your R Markdown file.
