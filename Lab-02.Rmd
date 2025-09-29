@@ -74,7 +74,7 @@ Using the `police_2` dataset:
 
 2. How many ‘Hispanic/Latino’ are there in the dataset?
 
-3. Using the example of Figure 2.3, could you filter how many people were killed that were (a) ‘Black’ and (b) killed by firearm (‘Firearm’)?
+3. Using the example of Figure 2.3, could you filter how many people were killed that were (a) ‘Black’ and (b) possessed a firearm on them at the time (‘Firearm’)?
 
 4. What about ‘White’ and ‘Firearm’?
 
